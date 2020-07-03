@@ -16,7 +16,7 @@ import javax.xml.ws.soap.SOAPBinding;
 //@WebService表示该类是一个服务类，需要发布其中的public的方法
 @WebService(
 		targetNamespace="http://service.cn.wayzim",
-		name="WeatherWSSoap",                         //服务视图名
+		name="WeatherWSSoap",                         //服务视图名   实现类的名字映射
 		portName="WeatherWSSoapPort",
 		serviceName="WeatherWS"                       //服务名称
 		)
